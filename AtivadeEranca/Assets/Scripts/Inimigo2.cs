@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public  class Inimigo2 : HerancaInimigoMata
+public  class Inimigo2 : HerancaAnimacao
 {
     [SerializeField]  float Velocidade;
     [SerializeField]  Transform[] posicao;
@@ -11,7 +11,7 @@ public  class Inimigo2 : HerancaInimigoMata
     int Randomica;
     float Tempo;
 
-    protected override void Start()
+    protected void Start()
     {
         Randomica = Random.Range(0, posicao.Length);
         Tempo = TempoEspera;

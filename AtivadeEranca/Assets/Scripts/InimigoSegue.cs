@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public  class InimigoSegue : HerancaInimigoMata
+public  class InimigoSegue : HerancaAnimacao
 {
-    public float velocidade;
-    private Transform target;
-
-    protected override void Start()
+    protected float velocidade;
+    protected private Transform target;
+    protected void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-    }
+        target = GameObject.FindGameObjectWithTag("Player").transform;
 
+    }
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, velocidade * Time.deltaTime);
