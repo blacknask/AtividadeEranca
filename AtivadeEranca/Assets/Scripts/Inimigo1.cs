@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inimigo1 : HerancaAnimacao
+public class Inimigo1 : HerancaInimigoMata
 {
    [SerializeField] protected float velocidadeVertical;
     Vector3 posicaoInicial;

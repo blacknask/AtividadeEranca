@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5674028028803451320}
   - component: {fileID: 1450573480063135080}
+  - component: {fileID: 2132840807279709251}
   m_Layer: 0
   m_Name: Tijolo
   m_TagString: Untagged
@@ -79,3 +80,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2132840807279709251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978120218360553071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21555030a60ced45b12896db753ad6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VelocidadeProjetil: 3

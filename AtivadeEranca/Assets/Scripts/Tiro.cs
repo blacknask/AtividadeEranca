@@ -18,6 +18,6 @@ public class Tiro : MonoBehaviour
 
     private void OnBecameVisible()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }
